@@ -1,0 +1,188 @@
+{
+    "model0": {
+        "models": "Binary_Classification",
+        "max_iter": 10000,
+        "alpha": 0.05,
+        "hidden_layer_sizes": [
+            64,
+            32
+        ],
+        "activation": "relu",
+        "solver": "adam",
+        "batch_size": 32,
+        "techniques": [
+            [
+                0.05
+            ]
+        ],
+        "tol": 0.0005,
+        "random_state": 42,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "learning_rate_init": 0.001,
+        "threshold": 0.9082126703366875,
+        "ap_train": 0.7505341064381758,
+        "f1_train": 0.8109965635738832,
+        "ap_val": 0.7974594357631904,
+        "f1_val": 0.8547008547008547,
+        "ap_test": 0.8263214779382335,
+        "f1_test": 0.8301886792452831
+    },
+    "model1": {
+        "models": "Binary_Classification",
+        "max_iter": 10000,
+        "alpha": 0.1,
+        "hidden_layer_sizes": [
+            64,
+            32
+        ],
+        "activation": "relu",
+        "solver": "adam",
+        "batch_size": 32,
+        "techniques": [
+            [
+                0.05,
+                0.01,
+                0.1
+            ]
+        ],
+        "tol": 0.0005,
+        "random_state": 42,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "learning_rate_init": 0.001,
+        "threshold": 0.8955569432031901,
+        "ap_train": 0.7497871877025768,
+        "f1_train": 0.8105022831050228,
+        "ap_val": 0.7961166709937922,
+        "f1_val": 0.8547008547008547,
+        "ap_test": 0.8261940225518486,
+        "f1_test": 0.8301886792452831
+    },
+    "model2": {
+        "models": "Binary_Classification",
+        "max_iter": 10000,
+        "alpha": 0.08,
+        "hidden_layer_sizes": [
+            64,
+            32
+        ],
+        "activation": "relu",
+        "solver": "adam",
+        "batch_size": 32,
+        "techniques": [
+            [
+                0.08,
+                0.1,
+                0.3,
+                0.5,
+                1
+            ]
+        ],
+        "tol": 0.0005,
+        "random_state": 42,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "learning_rate_init": 0.001,
+        "threshold": 0.9012835595262699,
+        "ap_train": 0.7500174684515324,
+        "f1_train": 0.8123569794050344,
+        "ap_val": 0.796864574844664,
+        "f1_val": 0.8448275862068966,
+        "ap_test": 0.8256898074021433,
+        "f1_test": 0.8301886792452831
+    },
+    "model3": {
+        "models": "Binary_Classification",
+        "max_iter": 10000,
+        "alpha": 0.08,
+        "hidden_layer_sizes": [
+            64,
+            32
+        ],
+        "activation": "relu",
+        "solver": "adam",
+        "batch_size": 32,
+        "techniques": [
+            [
+                0.08,
+                0.05,
+                0.03,
+                0.12
+            ]
+        ],
+        "tol": 0.0005,
+        "random_state": 42,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "learning_rate_init": 0.001,
+        "threshold": 0.9012835595262699,
+        "ap_train": 0.7500174684515324,
+        "f1_train": 0.8123569794050344,
+        "ap_val": 0.796864574844664,
+        "f1_val": 0.8448275862068966,
+        "ap_test": 0.8256898074021433,
+        "f1_test": 0.8301886792452831
+    },
+    "model4": {
+        "models": "Binary_Classification",
+        "max_iter": 10000,
+        "alpha": 0.08,
+        "hidden_layer_sizes": [
+            64,
+            32
+        ],
+        "activation": "relu",
+        "solver": "adam",
+        "batch_size": 32,
+        "techniques": [
+            [
+                0.08,
+                0.05,
+                0.03,
+                0.12
+            ]
+        ],
+        "tol": 0.0005,
+        "random_state": 42,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "learning_rate_init": 0.001,
+        "threshold": 0.9012835595262699,
+        "ap_train": 0.7500174684515324,
+        "f1_train": 0.8123569794050344,
+        "ap_val": 0.796864574844664,
+        "f1_val": 0.8448275862068966,
+        "ap_test": 0.8256898074021433,
+        "f1_test": 0.8301886792452831
+    },
+    "model5": {
+        "models": "Binary_Classification",
+        "max_iter": 10000,
+        "alpha": 0.08,
+        "hidden_layer_sizes": [
+            64,
+            32
+        ],
+        "activation": "relu",
+        "solver": "adam",
+        "batch_size": 32,
+        "techniques": [
+            [
+                0.08
+            ]
+        ],
+        "tol": 0.0005,
+        "random_state": 42,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "learning_rate_init": 0.001,
+        "threshold": 0.9012835595262699,
+        "ap_train": 0.7500174684515324,
+        "f1_train": 0.8123569794050344,
+        "ap_val": 0.796864574844664,
+        "f1_val": 0.8448275862068966,
+        "ap_test": 0.8256898074021433,
+        "f1_test": 0.8301886792452831
+    }
+}
